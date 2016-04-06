@@ -36,9 +36,7 @@ class MyPanel extends JPanel
 		super.paint(g);
 		g.fillRect(0,0,400,300);
 		this.drawTank(hero.getX(), hero.getY(), g, 0, 1);
-		
-		
-		
+	
 	}
 	public void drawTank(int x, int y, Graphics g,int direct,int type)
 	{
